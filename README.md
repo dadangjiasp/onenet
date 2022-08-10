@@ -4,8 +4,8 @@
 
 #需要启动定时脚本，每隔一分钟将数据上传至onenet
 #开启crontab定时任务
-#sudo crontab -e 
+# sudo crontab -e 
 #在最后一行输入如下代码，每一分钟将数据上传至onenet平台，如不需要log可去掉。onenet.py AM2320.py需放在同一路径下。
-#*/1 * * * * python /home/pi/onenet.py >> /home/pi/onenet.log
+# */1 * * * * python /home/pi/onenet.py >> /home/pi/onenet.log
 #重启cron ，任务有效执行  
-#sudo service cron restart
+# sudo service cron restart
