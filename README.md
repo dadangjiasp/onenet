@@ -1,5 +1,5 @@
 # onenet
-树莓派将传感器数据（AM2320&MPU6050，连接sda0/sda0,需要树莓派开启iic功能）上传至ONENET平台
+树莓派将传感器数据（AM2320&MPU6050，连接sda0/scl0,需要树莓派开启iic功能）上传至ONENET平台
 
 
 #需要启动定时脚本，每隔一分钟将数据上传至onenet
